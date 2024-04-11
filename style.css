@@ -6,6 +6,7 @@ body {
   background: #edf2ec; /*CAPE HONEY*/
 	margin: 0px;
 	padding: 0px;
+	zoom: 125%;
 }
 
 ::selection {
