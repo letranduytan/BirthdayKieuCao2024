@@ -2,12 +2,23 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Birthday KieuCao</title>
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet"><link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
+	<script>
+		document.addEventListener('click', function() {
+		  playMusic();
+		});
+		
+		function playMusic() {
+		  var audio = new Audio('Birthday.mp3');
+		  audio.play();
+		}
+		</script>
 <div class="card">
 		<div class="imgBox">
 			<div class="bark"></div>
@@ -27,9 +38,5 @@
 			<p class="text-right">from dt wth ♥</p>
 		</div>
 	</div>
-<!-- partial -->
-	<audio autoplay>
-      <source src="birthday.mp3">
-    </audio>
 </body>
 </html>
